@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#count{
+    font-size: 40px;
+    margin-block: 3%;
+}
+
+.counter{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.operate{
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 0px;
+    background-color: white;
+    color: black;
+}
+
+.operate:hover{
+    background-color:black;
+    color: white;
+    /* box-shadow: 5px 5px 10px rgb(194, 177, 177); */
+    border-radius: 50px;
+    /* border: 5px solid white; */
+}
